@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* -----------------------
+
+common css part 
+
+......................*/
+
+
+.btn-primary {
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #F15B22;
+}
+
+main {
+    margin: 130px 150px;
+}
+
+.header-title {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px auto;
+
+}
+
+.section-intro {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px auto;
+}
+
+/* header section */
+
+.header {
+    background-image: url(./images/banner/banner1.png);
+    background-size: cover;
+    max-width: 100%;
+    height: 600px;
+
+
+}
+
+.header-contant {
+    width: 525px;
+    text-align: right;
+    margin-top: 150px;
+    margin-left: 650px;
+    position: absolute;
+
+}
+
+
+
+
+
+/* My failures of previous year */
+
+.failures {
+
+    display: flex;
+    gap: 100px;
+
+}
+
+.my-picture>img {
+    width: 450px;
+    height: 500px;
+
+    color: rgba(241, 91, 34, 0.20);
+}
+
+.my-failures {
+    width: 416px;
+    margin: 120px auto;
+}
+
+/* myplans */
+.plans {
+    display: flex;
+    gap: 90px;
+    text-align: center;
+    margin: 50px auto;
+
+}
+
+/* <!-- Awlays keep a positive mindset --> */
+
+.positive-mind {
+    width: 950px;
+    height: 300px;
+    background-image: url(./images/watch.png);
+    background-size: cover;
+    border-radius: 8px;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.positive-mind>h2 {
+    color: white;
+    margin-bottom: 24px;
+
+}
+
+/* footer section  */
+
+.footer {
+    color: white;
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+    background-color: black;
+}
+
+.footer-discription>p {
+    color: white;
+}
+
+.footer-discription,
+.Subscribe {
+    width: 485px;
+
+}
+
+.Subscribe {
+    
+    margin-top: 0px;
+}
+
+.enter-email{
+    width: 325px;
+    height: 64px;
+    margin: 30px auto;
+}
